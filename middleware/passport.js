@@ -1,9 +1,7 @@
-require('dotenv').config();
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const userController = require('../controller/userController');
-const CLIENT_ID = process.env.clientID;
-const CLIENT_SECRET = process.env.clientSecret;
+
 
 const localLogin = new LocalStrategy(
   {
