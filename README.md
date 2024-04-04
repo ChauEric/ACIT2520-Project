@@ -13,10 +13,12 @@ Lanz Cahayag:
 </br>
 I worked on the following tasks:
 1. Fixed Pull Code - Pulled main branch, made corrections and pushed to the main branch.
-2. <Insert Some Task Here> - This task is responsible for xyz functionality.
+2. Reminder Update - This task is responsible for adding the existingReminder and allowing the Reminder function to work. 
 
 
 Andrew Kim:
 </br>
 I worked on the following tasks:
 1. <Insert Some Task Here> - This task is responsible for xyz functionality.
+
+
