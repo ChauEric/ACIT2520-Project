@@ -24,9 +24,11 @@ I worked on the following tasks:
 1. <Insert Some Task Here> - This task is responsible for xyz functionality.
 
 April 2, 2024 (Second Sprint)
+
 Eric Chau:
 </br>
 I worked on the following tasks:
-1 - [x] Authenticated users should not be able to see other authenticated users reminders. Only their own.
-2 - [x] Authenticated users should not be able to change other authenticated users reminders. Only their own.
-3 - [x] Authenticated users should not be able to delete other authenticated users reminders.
+1. Authentication:
+2. [x] Authenticated users should not be able to see other authenticated users reminders. Only their own.
+3. [x] Authenticated users should not be able to change other authenticated users reminders. Only their own.
+4. [x] Authenticated users should not be able to delete other authenticated users reminders.
