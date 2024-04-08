@@ -11,6 +11,7 @@ let authController = {
 
   loginSubmit: (req, res) => {
     // implement later
+    res.render('auth/reminders');
   },
 
   registerSubmit: (req, res) => {
