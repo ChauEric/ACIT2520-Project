@@ -21,7 +21,9 @@ Andrew Kim:
 </br>
 I worked on the following tasks:
 
-1. <Insert Some Task Here> - This task is responsible for xyz functionality.
+
+1. Worked on CSS and HTML files to edit on our reminders that landing page
+2. Changed the paragrphs and sentences to our reminders
 
 April 2, 2024 (Second Sprint)
 
