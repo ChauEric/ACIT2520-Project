@@ -34,3 +34,10 @@ I worked on the following tasks:
 2. [x] Authenticated users should not be able to see other authenticated users reminders. Only their own.
 3. [x] Authenticated users should not be able to change other authenticated users reminders. Only their own.
 4. [x] Authenticated users should not be able to delete other authenticated users reminders.
+
+
+April 17-18th
+Lanz Cahayag:
+</br> 
+1. Created an admin.ejs
+2. Tried to create a route to it
