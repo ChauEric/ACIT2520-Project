@@ -41,3 +41,9 @@ Lanz Cahayag:
 </br> 
 1. Created an admin.ejs
 2. Tried to create a route to it
+
+April 19th
+Lanz Cahayag:
+</br>
+1. Worked on Admin page
+2. Struggled on figuring out how to define the session for the Admin page. 
