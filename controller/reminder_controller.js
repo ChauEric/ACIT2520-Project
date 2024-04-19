@@ -2,6 +2,8 @@ let database = require('../database').Database;
 
 let remindersController = {
   //let user = database.find((user) => user.name === req.user.name);
+  //Not working on its own so I implemented in all functions
+
   list: (req, res) => {
     let user = database.find((user) => user.name === req.user.name);
     res.render('reminder/index', { reminders: user.reminders });
