@@ -24,6 +24,7 @@ I worked on the following tasks:
 
 1. Worked on CSS and HTML files to edit on our reminders that landing page
 2. Changed the paragrphs and sentences to our reminders
+3. Ive also edited the JS file to open localhost3000 to remove navigation bar code but when I tried that for hole day, it keep shows an error and page doesnt open and shows an black text error.
 
 April 2, 2024 (Second Sprint)
 
