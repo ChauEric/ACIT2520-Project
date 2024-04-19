@@ -34,6 +34,12 @@ const passport = require('./middleware/passport');
 app.use(passport.initialize());
 app.use(passport.session());
 
+
+
+app.get('/admin', (req, res) => {
+  res.render('admin', { user: req.user }); 
+});
+
 // Routes start here
 app.get('/reminders', reminderController.list);
 app.get('/reminder/new', reminderController.new);
@@ -57,6 +63,10 @@ app.post(
     failureRedirect: '/auth/login',
   })
 );
+
+const authRoutes =require('express-session');
+app.use('/auth', authRoutes);
+
 
 app.listen(3001, function () {
   console.log(
