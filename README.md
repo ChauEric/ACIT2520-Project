@@ -35,7 +35,7 @@ I worked on the following tasks:
 2. [x] Authenticated users should not be able to see other authenticated users reminders. Only their own.
 3. [x] Authenticated users should not be able to change other authenticated users reminders. Only their own.
 4. [x] Authenticated users should not be able to delete other authenticated users reminders.
-
+5. [x] Users attempting to access localhost:3001/reminders without being logged in are redirected to Login page.
 
 April 17-18th
 Lanz Cahayag:
