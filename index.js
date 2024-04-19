@@ -34,8 +34,25 @@ const passport = require('./middleware/passport');
 app.use(passport.initialize());
 app.use(passport.session());
 
+// Checks if passport session is valid
+function isValidSession(req) {
+  console.log('Session is authenticated!');
+  return req.isAuthenticated();
+}
 // Routes start here
-app.get('/reminders', reminderController.list);
+app.get(
+  '/reminders',
+  function (req, res, next) {
+    // if the passport session is not valid, redirects to login page
+    if (!isValidSession(req)) {
+      console.log('User not logged in, redirected');
+      return res.redirect('login');
+    }
+    next();
+  },
+  reminderController.list
+);
+// app.get('/reminders', reminderController.list);
 app.get('/reminder/new', reminderController.new);
 app.get('/reminder/:id', reminderController.listOne);
 app.get('/reminder/:id/edit', reminderController.edit);
